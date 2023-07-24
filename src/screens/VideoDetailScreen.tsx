@@ -164,8 +164,10 @@ function VideoDetailScreen(props: Props) {
               <Text style={styles.overview}>Play trailer 1</Text>
             </View>
             <View style={styles.trailerView}>
-              <PlayCircleIcon />
-              <Text style={styles.overview}>Play trailer 1</Text>
+              <IconButton>
+                <PlayCircleIcon />
+              </IconButton>
+              <Text style={styles.overview}>Play trailer 2</Text>
             </View>
           </View>
         </View>
